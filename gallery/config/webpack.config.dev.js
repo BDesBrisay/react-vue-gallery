@@ -100,7 +100,6 @@ module.exports = {
     // We include the app code last so that if there is a runtime error during
     // initialization, it doesn't blow up the WebpackDevServer client, and
     // changing JS code would still trigger a refresh.
-    require.resolve('react-vue')
   ],
   output: {
     // Add /* filename */ comments to generated require()s in the output.
@@ -174,13 +173,6 @@ module.exports = {
   module: {
     strictExportPresence: true,
     rules: [
-      {
-        test: /\.vue$/,
-        loader: 'react-vue-loader',
-        options: {
-          vue: './vue.config.js'
-        }
-      },
       // Disable require.ensure as it's not a standard language feature.
       { parser: { requireEnsure: false } },
 

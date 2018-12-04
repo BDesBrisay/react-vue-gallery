@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { VueWrapper } from 'vuera';
 
 import './App.css';
 import VueSide from './Vue/VueSide';
@@ -12,7 +13,9 @@ class App extends Component {
           <ReactSide />
         </div>
         <div className="vue">
-          <VueSide />
+          <VueWrapper
+            component={VueSide}
+          />
         </div>
       </div>
     );

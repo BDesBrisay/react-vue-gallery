@@ -50,6 +50,7 @@ const moduleFileExtensions = [
   'json',
   'web.jsx',
   'jsx',
+  'vue'
 ];
 
 // Resolve file paths in the same order as webpack

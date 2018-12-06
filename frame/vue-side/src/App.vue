@@ -3,8 +3,8 @@
     <Header />
     <ImageSection 
       title="Project Setup"
-      caption="this is a caption" 
-      imgName="helloWorld.png"
+      caption="By running the command 'vue create app-name' an entire application is created using Vue.js and by default presents you with this screen. There are many links to documentation, references, and community forums for Vue that prove to be very useful for beginners trying to learn Vue."
+      imgName="vueStart.png"
     />
     <ImageSection 
       title="Hello World Component"

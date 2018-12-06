@@ -27,6 +27,8 @@
   img {
     width: calc(100% - 60px);
     margin: 20px 30px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
   }
   p {
     font-size: 16px;

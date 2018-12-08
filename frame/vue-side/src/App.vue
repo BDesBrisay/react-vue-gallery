@@ -17,18 +17,35 @@
       caption="One way to get data from the parent component to the child is through the props. By defining the props name in the export, you can then use those keywords to insert the data into your component. There are two different ways you can access these variables in your component and they are either by using double curly brackets around the name of the variable, or you can use the shorthand syntax ':' prefixing an attribute to bind Vue to it and allow Vue to insert the data there." 
       imgName="props.png"
     />
+    <ImageSection 
+      title="Responsive Data"
+      caption="In order to add data scoped to your component you can give your export the property 'data' and then access it anywhere in your component. An interesting aspect to providing your component with data this way is that in order for the data to be contained solely within this component you need to make the value of the data a function returning whatever your data is, otherwise any instance of the same component will use and modify the same data. This could be seen as a feature if you wanted only one set of data that is modified uniformly across the entire site. Here is an example of the component that the code in the image creates:"
+      imgName="data.png"
+      background="#eee"
+    />
+    <Count />
+    <ImageSection 
+      title="Learning Curve"
+      caption="This photo shows a page in the Vue documentation that details how to make a component. Creating a component with responsive data in Vue appears to be relatively easy. Overall components are very easy to make in Vue and the syntax and all the different pieces that go into a component allow for a developer to quickly develop what they need."
+      imgName="docs.png"
+    />
+    <End />
   </div>
 </template>
 
 <script>
   import Header from './components/Header.vue';
   import ImageSection from './components/ImageSection.vue';
+  import Count from './components/Count.vue';
+  import End from './components/End.vue';
 
   export default {
     name: 'app',
     components: {
       Header,
-      ImageSection
+      ImageSection,
+      Count,
+      End
     }
   }
 </script>

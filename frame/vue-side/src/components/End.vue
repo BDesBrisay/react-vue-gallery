@@ -1,7 +1,11 @@
 <template>
   <div>
-    <h2>Overall Conclusion</h2>
-    <p>Although most of Vue is straightforward and easy to understand, a developer will run into lots of problems if they have a more complicated app.</p>
+    <h2>You should use Vue.js if:</h2>
+    <div>
+      <li>You're looking for a <strong>small, lightweight</strong> framework</li>
+      <li>You're making a relatively <strong>simple</strong> application</li>
+      <li>You want to be able to <strong>easily learn</strong> the framework</li>
+    </div>
   </div>
 </template>
 
@@ -18,5 +22,10 @@
     display: flex;
     flex-direction: column;
     text-shadow: 0px 1px 0px rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 20px 0 30px;
+  }
+  h2 {
+    margin-bottom: 10px;
   }
 </style>

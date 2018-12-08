@@ -1,12 +1,15 @@
 import React from 'react';
-
-// import './ImageSection.css';
+import './ImageSection.css';
 
 class ImageSection extends React.Component {
   render() {
     const { title, image, caption, background } = this.props;
     return (
-      <div></div>
+      <div className="section" style={{ backgroundColor: background }}>
+        <h1>{ title }</h1>
+        { image }
+        <p>{ caption }</p>
+      </div>
     )
   }
 }

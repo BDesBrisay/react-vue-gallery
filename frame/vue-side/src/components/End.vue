@@ -21,7 +21,7 @@
     color: white;
     display: flex;
     flex-direction: column;
-    text-shadow: 0px 1px 0px rgba(0,0,0,0.5);
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
     text-align: center;
     padding: 20px 0 30px;
   }

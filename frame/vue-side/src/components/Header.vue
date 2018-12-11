@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="../assets/logo.png" alt="" />
+    <img src="http://harvix.com/react-vue-gallery/vue-side/dist/img/logo.82b9c7a5.png" alt="" />
     <h1>Vue.js</h1>
   </div>
 </template>

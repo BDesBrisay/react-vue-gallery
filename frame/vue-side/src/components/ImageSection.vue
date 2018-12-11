@@ -1,7 +1,7 @@
 <template>
   <div :style="{ backgroundColor: background }">
     <h1>{{ title }}</h1>
-    <img :src="require('../assets/' + imgName)" :alt="imgName" />
+    <img :src="'http://harvix.com/react-vue-gallery/vue-side/dist/img/' + imgName" :alt="imgName" />
     <p>{{ caption }}</p>
   </div>
 </template>

@@ -7,7 +7,7 @@ class ImageSection extends React.Component {
     return (
       <div className="section" style={{ backgroundColor: background }}>
         <h1>{ title }</h1>
-        { image }
+        <img src={`http://harvix.com/react-vue-gallery/react-side/build/static/media/${image}`} alt="" />
         <p>{ caption }</p>
       </div>
     )

@@ -2,9 +2,9 @@
   <div>
     <h2>You should use Vue.js if:</h2>
     <div>
-      <li>You're looking for a <strong>small, lightweight</strong> framework</li>
+      <li>You're looking for a <strong>small, lightweight</strong> library</li>
       <li>You're making a relatively <strong>simple</strong> application</li>
-      <li>You want to be able to <strong>easily learn</strong> the framework</li>
+      <li>You want to be able to <strong>easily learn</strong> the library</li>
     </div>
   </div>
 </template>
